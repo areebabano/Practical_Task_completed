@@ -1,0 +1,17 @@
+[project]
+name = "edumate-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Areeba Bano", email = "161935706+areebabano@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+edumate-chatbot = "edumate_chatbot:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
